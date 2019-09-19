@@ -1,0 +1,151 @@
+@import url(reset.css);
+#wrap{width:100%;position:relative;}
+#main{width:100%;padding:5% 0;}
+#main .dDay{color:#fff;font-size:1em;background-color:#a2a5a7;width:30%;height:25px;margin:20% auto;vertical-align:middle;padding-top:5px;border-radius:5px;ling-height:200px;}
+#main .dDay span{font-size:1.2em;font-weight:bold;}
+#main .top_wrap_text{color:#f0638d;font-weight:bold;font-size:0.9em;}
+
+#main .mainPic{width:100%;margin-top:7%;margin-bottom:3%;}
+#main .mainPic img{width:95%;margin-top:70px;}
+#main .mainPic .mainPic_box{height:106px;width:110px;background-image:url(../img/top_text_bg.jpg);background-size:100%;top:0;left:50%;transform:translateX(-50%);}
+#main .mainPic .mainPic_box .mainPic_box_t1{color:#221e1f;font-weight:bold;margin-top:20px;}
+#main .mainPic .mainPic_box .mainPic_box_t2{color:#221e1f;font-weight:bold;margin-top:25px;font-size:1.5em;}
+
+#main .top_wrap_text2{font-size:0.7em;line-height:1.5em;color:#939597;margin-top:30px;}
+#main .top_wrap_text3{font-size:2em;line-height:1.3em;color:#221e1f;margin-top:30px;}
+#main .top_wrap_text3 .top_wrap_text3_s1{font-size:0.5em;color:#f3899b;}
+#main .top_wrap_text3 .top_wrap_text3_s2{font-size:0.7em;}
+#main .top_wrap_line{border:1px solid #221e1f;width:5%;margin:30px auto;}
+#main .top_wrap_text4{font-size:1em;line-height:1.5em;}
+#content{width:100%;}
+#content h1{margin:10% 0 0 0;}
+#content h1 img{width:45%;}
+#content .con_box{background-image:url(../img/con_txt_bg.png);background-size:100%; background-repeat:no-repeat;background-position:center top;text-align:center;border:0.01px solid #fff;}
+#content .con_box .con_txt{width:80%;margin:7% auto 0 auto;font-size:0.8em;color:#666;line-height:2.5em;font-family:'Nanum Gothic';letter-spacing:-0.01em;text-align:center;}
+
+#content .con_box .con_txt_bottom_bg{width:100%;height:15%;background-image:url(../img/con_txt_bottom_bg.png);background-size:100%; background-repeat:no-repeat;background-position:center top;}
+#content .top_wrap_line{border:1px solid #221e1f;width:5%;margin:10% auto;}
+
+#content .con_box .phone{width:100%;height:140px;background-color:#d9d9d9;padding-top:10px;}
+#content .con_box .phone .groom{width:50%;}
+#content .con_box .phone .bride{width:50%;}
+#content .con_box .phone .gb_box .name{width:100%;text-align:center;font-family:'Nanum Gothic';color:#707274;font-size:1em;letter-spacing:-0.05em;margin-top:10%;}
+#content .con_box .phone .gb_box .name span{font-size:1.1em;font-weight:bold;}
+#content .con_box .phone .phone_box{margin:20% 0 30% 0;}
+#content .con_box .phone .phone_box a img{width:20%;vertical-align:middle;}
+#content .con_box .phone .phone_box a:first-child img{margin-right:10%;}
+#content .con_box .phone .phone_box a:last-child img{margin-left:10%;}
+
+#content .con_box .parents_title{margin-bottom:5%;}
+#content .con_box .parents_title .parents_title_1{width:49%;text-align:center;border-right:1px dotted #666;}
+#content .con_box .parents_title .parents_title_2{width:49%;text-align:center;}
+#content .con_box .parents_title span{font-size:1.2em;}
+
+#content .con_box .parents{width:100%;height:120px;background-color:#d9d9d9;}
+#content .con_box .parents .groom_father{width:49%;border-right:1px dotted #fff;height:120px;}
+#content .con_box .parents .bride_father{width:49%;height:120px;}
+#content .con_box .parents .gb_box .name{width:100%;text-align:center;font-family:'Nanum Gothic';color:#707274;font-size:0.9em;letter-spacing:-0.05em;margin-top:10%;}
+#content .con_box .parents .gb_box .name span{font-size:1.1em;font-weight:bold;}
+#content .con_box .parents .phone_box{margin:10% 0 10% 0;}
+#content .con_box .parents .phone_box a img{width:20%;vertical-align:middle;}
+#content .con_box .parents .phone_box a:first-child img{margin-right:10%;}
+#content .con_box .parents .phone_box a:last-child img{margin-left:10%;}
+
+#content .con_box .parents_2{width:100%;height:120px;background-color:#d9d9d9;margin-bottom:10%;}
+#content .con_box .parents_2 .groom_mother{width:49%;border-right:1px dotted #fff;height:120px;}
+#content .con_box .parents_2 .bride_mother{width:49%;height:120px;}
+#content .con_box .parents_2 .gb_box .name{width:100%;text-align:center;font-family:'Nanum Gothic';color:#707274;font-size:0.9em;letter-spacing:-0.05em;margin-top:10%;}
+#content .con_box .parents_2 .gb_box .name span{font-size:1.1em;font-weight:bold;}
+#content .con_box .parents_2 .phone_box{margin:10% 0 10% 0;}
+#content .con_box .parents_2 .phone_box a img{width:20%;vertical-align:middle;}
+#content .con_box .parents_2 .phone_box a:first-child img{margin-right:10%;}
+#content .con_box .parents_2 .phone_box a:last-child img{margin-left:10%;}
+
+
+#content .con_box .sns{width:80%;margin:5% auto 0 auto;}
+#content .con_box .sns .line{width:30%;float:left;margin-top:0.45em;background:#999;height:1px;}
+#content .con_box .sns .snstit p{width:40%;text-align:center;font-family:'Nanum Gothic';color:#707274;font-size:0.7em;float:left;}
+#content .con_box .sns .snstit img{width:10%;}
+#content .con_box .sns .sns_link{margin:5% 0 10% 0;}
+#content .con_box .sns .sns_link a{display:block;width:20%;text-align:center;float:left;}
+#content .con_box .sns .sns_link a:nth-child(1){text-align:left;width:20%;}
+#content .con_box .sns .sns_link a:nth-child(2){text-align:center;width:15%;}
+#content .con_box .sns .sns_link a:nth-child(3){text-align:center;width:30%;}
+#content .con_box .sns .sns_link a:nth-child(4){text-align:center;width:15%;}
+#content .con_box .sns .sns_link a:nth-child(5){text-align:right;width:20%;}
+#content .con_box .sns .sns_link a:nth-child(1) img{width:50%;}
+#content .con_box .sns .sns_link a:nth-child(2) img{width:60%;}
+#content .con_box .sns .sns_link a:nth-child(3) img{width:40%;}
+#content .con_box .sns .sns_link a:nth-child(4) img{width:70%;}
+#content .con_box .sns .sns_link a:nth-child(5) img{width:45%;}
+
+#photo{width:100%;margin-top:30%;}
+#photo h1{margin:5% 0 0 0}
+#photo h1 img{width:35%;}
+.swiper-container{width:100%;height:100%;}
+.swiper-slide{
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+.swiper-slide img{display:inline-block;width:100%;}
+
+#direction{width:100%;padding:5% 0;margin-top:5%;}
+#direction h1 img{width:23%;margin-top:20%;}
+#direction .wedding_hall{width:90%;margin:10% auto 0 auto;padding:2% 3%;background-color:rgba(213,191,208,0.3);border:0.1em solid #fff;}
+#direction .wedding_hall p{color:#666;font-size:1em;font-weight:bold;text-align:left;line-height:1.8em;letter-spacing:-0.05em;}
+#direction .wedding_hall .hall_detail{float:left;width:80%;}
+#direction .wedding_hall .hall_detail .hall_addr{font-weight:normal;}
+#direction .wedding_hall .hall_call{float:left;width:20%;margin-top:1em;}
+#direction .wedding_hall .hall_call p img{width:50%;}
+#direction .line2{width:90%;height:1px;background:#ffffff;margin:5% auto 10% auto;}
+#direction .vehicle{width:90%;margin:0 auto;background-color:rgba(213,191,208,0.3);border:0.1em solid #fff;}
+#direction .vehicle h2{color:#999;font-size:1em;font-weight:bold;margin:5% 0 5% 0;}
+#direction .vehicle .trans{margin-bottom:1%;}
+#direction .vehicle .trans p{color:#999;font-size:0.8em;line-height:1.8em;}
+#direction .vehicle .trans .car{width:33%;}
+#direction .vehicle .trans .car img{width:50%;margin-top:3%;}
+#direction .vehicle .trans .bus{width:34%;}
+#direction .vehicle .trans .bus img{width:30%;}
+#direction .vehicle .trans .subway{width:33%;}
+#direction .vehicle .trans .subway img{width:30%;}
+
+#guest{width:100%;padding:5% 0;margin-top:20%;}
+#guest h1 img{width:28%;margin:10% 0;}
+#guest .say{color:#666;font-size:0.8em;letter-spacing:-0.05em;margin-top:1.5em}
+#guest .input_zone{width:90%;margin:5% auto 0 auto;line-height:2.5em;}
+#guest .input_zone input{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border:0.1em solid #c9c9c9;background:#fff;color:#666;font-size:0.9em;line-height:1.5em;height:0.9em;padding:1em;width:100%;margin-top:2%;}
+#guest .input_zone .regit{margin:1em auto 2em auto; width:35%;}
+#guest .line3{height:1px;background:#f7ceda;width:90%;margin:0 auto;}
+#guest .regit_list{padding:0.5em 0;width:90%;margin:0 auto;}
+#guest .regit_list .rDate{font-size:0.8em;font-weight:bold;line-height:1.8em;letter-spacing:-0.01em;text-align:left;}
+#guest .regit_list li{padding:0.7em 0; border-bottom:0.05em dashed #999;}
+#guest .regit_list li:last-child{border-bottom:0;}
+#guest .regit_list .rDate span{font-size:0.7em;font-weight:normal;margin-left:10%;}
+#guest .regit_list .msg{font-size:1em;font-weight:normal;color:#000;text-align:left;line-height:1.8em;letter-spacing:-0.01em;word-break:break-all;}
+#guest .add {width:90%;margin:0.5em auto 0 auto;text-align:right;}
+#guest .add a{font-size:0.9em;color:#666;letter-spacing:-0.01em;}
+#footer{width:100%;padding:5% 0;}
+#footer p img{width:40%;margin:10% 0;}
+#footer .top{color:#666;font-family:sans-serif;font-size:0.8em;font-weight:bold;position:absolute;right:5%;top:60%;width:6%;letter-spacing:-0.1em;}
+#open_navi{position:fixed;width:100%;height:100%;left:0;top:0;}
+#open_navi .dark{background:#000;opacity:0.5;width:100%;height:100%;}
+#open_navi .close{left:5%;top:3%;width:10%;font-size:3em;color:#fff;}
+#open_navi .navibox{width:60%;height:100%;right:-60%;top:0;background-color:rgba(34,37,45,0.6);}
+#open_navi .navibox dl{width:70%;margin:1em 0 0 3em;font-size:1em;color:#fff;}
+#open_navi .navibox dl dt{padding-top:5%;margin-bottom:1em;font-weight:bold;}
+#open_navi .navibox dd ul li{vertical-align:middle;padding:1.3em 0 ;border-bottom:0.08em solid #fff;height:0.8em;}
+#open_navi .navibox dd ul li:last-child{border:none;}
+#default_navi{position:fixed;right:2%;width:10%;top:1%;cursor:pointer;z-index:1000;}
