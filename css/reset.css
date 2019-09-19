@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+html{width:100%;height:100%;margin:0;padding:0;overflow-y:scroll;}
+body{width:100%;height:100%;margin:0;padding:0;line-height:1;word-break:keep-all;background-color:#fff;}
+body{
+    font-family:'Nanum Gothic','Nanum Myeongjo','돋움','굴림',dotum,Arial,Helvetica,sans-serif;
+    font-size:100%;
+    color:#666;
+    letter-spacing:0.1em;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    font-smoothing:antialiased;
+    -webkit-text-size-adjust:none;
+    -moz-text-size-adjust:none;
+    -ms-text-size-adjust:none;
+}
+h1,h2,h3,h4,h5,h6,input,button{font-size:100%;font-weight:normal;}
+div,span,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+abbr,address,cite,code,i,em,img,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+button,input,textarea,select{
+    margin:0;padding:0;border:0 none;outline:0;vertical-align:top;
+}
+div,span,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+abbr,address,cite,code,i,em,img,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,textarea{
+    vertical-align:top;
+}
+button,input,select,img{vertical-align:middle;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+dl,ul,ol,li{list-style:none;}
+img,video{max-width:100%;font-size:0;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none;color:inherit;}
+a:hover,a:focus/*,a:visited,a:active*/{color:inherit;}
+button,label{cursor:pointer;}
+button{background-color:transparent;}
+legend,caption,hr{display:block;width:0;height:0;font-size:0;line-height:0;overflow:hidden;visibility:hidden;border:0 none;position:absolute;top:0;left:-1000em;}
+.hide{display:block;visibility:hidden;width:0px;height:0px;overflow:hidden;font-size:0px;line-height:0;position:absolute;}
+.cle{display:inline-block;}
+.cle{display:block;}
+.cle{*zoom:1;} /*for IE 5.5-7*/
+* html .cle{height:1%;} /* hides from ie-mac */
+.cle:after{content:"";display:block;height:0px;clear:both;visibility:hidden;}
+.bdr{border:1px solid #000}
+.fl{float:left;}
+.fr{float:right;}
+.cb{clear:both;}
+.dib{display:inline-block;}
+.dpb{display:block;}
+.dpn{display:none;}
+.spacezero{line-height:0;font-size:0;}
+.mt5{margin-top:5px;}
+.mb5{margin-bottom:5px;}
+.pt5{padding-top:5px;}
+.pb5{padding-bottom:5px;}
+.tar{text-align:right;}
+.tac{text-align:center;}
+.tal{text-align:left;}
+.pr{position:relative;}
+.pa{position:absolute;}
+.pf{position:fixed;}
+.vab{vertical-align:bottom;}
+.fwb{font-weight:bold;}
+.imd{ime-mode:disabled;}
+.ima{ime-mode:active;}
