@@ -41,25 +41,17 @@
 #content .con_box .parents_title .parents_title_2{width:49%;text-align:center;}
 #content .con_box .parents_title span{font-size:1.2em;}
 
-#content .con_box .parents{width:100%;height:120px;background-color:#d9d9d9;}
-#content .con_box .parents .groom_father{width:49%;border-right:1px dotted #fff;height:120px;}
-#content .con_box .parents .bride_father{width:49%;height:120px;}
+#content .con_box .parents{width:100%;background-color:#d9d9d9;}
+#content .con_box .parents .groom_father{width:49%;border-right:1px dotted #fff;}
+#content .con_box .parents .bride_father{width:49%;}
 #content .con_box .parents .gb_box .name{width:100%;text-align:center;font-family:'Nanum Gothic';color:#707274;font-size:0.9em;letter-spacing:-0.05em;margin-top:10%;}
 #content .con_box .parents .gb_box .name span{font-size:1.1em;font-weight:bold;}
-#content .con_box .parents .phone_box{margin:10% 0 10% 0;}
-#content .con_box .parents .phone_box a img{width:20%;vertical-align:middle;}
-#content .con_box .parents .phone_box a:first-child img{margin-right:10%;}
-#content .con_box .parents .phone_box a:last-child img{margin-left:10%;}
 
-#content .con_box .parents_2{width:100%;height:120px;background-color:#d9d9d9;margin-bottom:10%;}
-#content .con_box .parents_2 .groom_mother{width:49%;border-right:1px dotted #fff;height:120px;}
-#content .con_box .parents_2 .bride_mother{width:49%;height:120px;}
+#content .con_box .parents_2{width:100%;background-color:#d9d9d9;margin-bottom:10%;}
+#content .con_box .parents_2 .groom_mother{width:49%;height:55px;border-right:1px dotted #fff;}
+#content .con_box .parents_2 .bride_mother{width:49%;height:55px;}
 #content .con_box .parents_2 .gb_box .name{width:100%;text-align:center;font-family:'Nanum Gothic';color:#707274;font-size:0.9em;letter-spacing:-0.05em;margin-top:10%;}
 #content .con_box .parents_2 .gb_box .name span{font-size:1.1em;font-weight:bold;}
-#content .con_box .parents_2 .phone_box{margin:10% 0 10% 0;}
-#content .con_box .parents_2 .phone_box a img{width:20%;vertical-align:middle;}
-#content .con_box .parents_2 .phone_box a:first-child img{margin-right:10%;}
-#content .con_box .parents_2 .phone_box a:last-child img{margin-left:10%;}
 
 
 #content .con_box .sns{width:80%;margin:5% auto 0 auto;}
