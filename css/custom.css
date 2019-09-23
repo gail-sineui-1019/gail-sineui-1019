@@ -1,0 +1,228 @@
+#custom #wrap .content__title {
+    color: #f3899b;
+}
+
+#custom #wrap .pink-bg {
+    background-color: #fff3f3;
+}
+
+#custom #wrap .swiper-container {
+    border: 2px solid #f3899b7a;
+    box-sizing: border-box;
+    margin: 16px auto 32px;
+}
+
+#custom #wrap .swiper-pagination-bullet-active {
+    background-color: #f3899b;
+}
+
+#custom #wrap .swiper-button-next,
+#custom #wrap .swiper-button-prev {
+    background-image: none;
+    border-top: 2.4px solid #f3899b;
+    border-right: 2.4px solid #f3899b;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    margin: 0 10px;
+}
+
+#custom #wrap .swiper-button-prev {
+    transform: rotate(-135deg);
+}
+
+#custom #wrap .wedding_hall.cle {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+}
+
+#custom #wrap #direction {
+    width: 95%;
+    padding: 30px 0;
+    margin: 0 auto 40px;
+    box-sizing: border-box;
+    border: 2px solid #ffcaca;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 500px;
+}
+
+#custom #wrap .link-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0 6px;
+}
+
+#custom #wrap .link-icon.hall_call{
+    border: 1.4px solid #c4cac7;
+    padding: 5px;
+}
+
+#custom #wrap #gurye {
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 2% 3%;
+    text-align: left;
+    line-height: 1.8em;
+    margin-bottom: 30px;
+}
+#custom #wrap #gurye .title {
+    color: #666;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.8em;
+    letter-spacing: -0.05em;
+}
+
+#custom #wrap #gurye .content {
+    color: #666;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: left;
+    line-height: 1.8em;
+    letter-spacing: -0.05em;  
+}
+
+#custom #wrap .divider {
+    width: 90%;
+    height: 1.5px;
+    background-color: #ffcaca;
+    margin: 40px auto;
+}
+
+#custom #wrap #ending {
+    position: relative;
+    text-align: center;
+    font-weight: 600;
+    padding: 70px;
+    color: #333;
+    line-height: 1.6;
+}
+
+#custom #wrap .ending-bg {
+    background-image:url(../img/endingBG.jpg);
+    width: 100%;
+    height: 265px;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: .5;
+}
+
+#custom #content .top_wrap_line {
+    margin: 60px auto;
+}
+
+#custom #photo {
+    margin-top: 0;
+}
+
+#custom #content h1 {
+    margin-top: 40px;
+}
+
+#custom #content {
+    margin: 50px auto;
+    max-width: 1183px;
+}
+
+#custom #content .con_box .parents_title {
+    margin: 25px 0;
+}
+
+#custom #content .con_box .parents_title span {
+    vertical-align: baseline;
+}
+
+#custom #content .con_box .phone {
+    height: auto;
+}
+
+#custom #content .con_box .phone .phone_box {
+    margin: 20px; 
+}
+
+#custom #content .con_box .phone .phone_box a img {
+    max-width: 45px;
+    margin-top: 10px;
+}
+
+#custom #content .con_box .phone .gb_box .name,
+#custom #content .con_box .parents .gb_box .name,
+#custom #content .con_box .parents_2 .gb_box .name {
+    margin: 20px 0;
+}
+
+#custom #content .con_box .phone {
+    padding-bottom: 3px;
+}
+
+#custom #content .con_box .phone .phone_box a:first-child img {
+    margin-right: 10px;
+}
+
+#custom .swiper-slide {
+    height: 145vw;
+    max-height: 895px
+}
+
+#custom #content .con_box .parents_2 .groom_mother,
+#custom #content .con_box .parents_2 .bride_mother{
+    height: auto;
+}
+
+#custom #content .con_box .con_txt {
+    font-size: .8rem;
+}
+
+#custom #content .content-right {
+    background-image: none;
+}
+
+#custom #main .dDay {
+    margin: 50px auto;
+}
+
+
+
+@media (min-width: 768px) {
+    #custom #content .con_box .con_txt {
+        font-size: 1rem;
+    }
+
+    #custom #main {
+        max-width: 700px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    #custom #content > section {
+        width: 47%;
+        margin: 0 1%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #custom #content .swiper-slide {
+        height: 69vw;
+    }
+}
+
+@media (min-width: 992px) {
+    #custom #content .con_box .con_txt {
+        font-size: 1.2rem;
+    }
+}

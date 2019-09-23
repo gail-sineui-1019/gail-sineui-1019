@@ -14,6 +14,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/swiper.min.css">
     <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 </head>
@@ -21,7 +22,7 @@
         src="https://code.jquery.com/jquery-3.4.1.slim.js"
         integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
         crossorigin="anonymous"></script>
-<body>
+<body id="custom">
 <div id="wrap" class="pr">
     <div id="main" class="tac pr">
         <p class="dDay"><span>D-</span><span id="d-day"></span></p>
@@ -50,17 +51,70 @@
         </div>
     </div>
     <div id="content" class="tac pr">
-        <h1 class="tac"><b>WEDDING</b> INVITATION 헤딩 분홍색으로 이쁘게</h1>
-        <div class="con_box pr">
+        <section class="content-left con_box pr">
+            <h1 class="tac content__title"><b>WEDDING</b> INVITATION</h1>
             <div class="con_txt fwb">
                 따스한 가을 햇살 아래<br>익어가는 열매처럼<br>두 사람의 만남도 하나님의 사랑 안에서<br>소중한 결실을 맺으려 합니다.<br><br>그 시작이<br>시월의 어느 멋진 날이 될 수
                 있도록<br>귀한 걸음하시어 축복해주시면<br>큰 기쁨이 되겠습니다.
             </div>
             <div class="con_txt_bottom_bg"></div>
             <div class="top_wrap_line"></div>
-
+            <div class="phone cle pink-bg">
+                <div class="groom fl">
+                    <div class="gb_box cle">
+                        <div class="name">신랑 &nbsp;<span>김신의</span></div>
+                    </div>
+                    <div class="phone_box">
+                        <a href="tel:010-9171-8247"><img src="img/br_call.gif" alt="신랑 전화"></a>
+                        <a href="sms:010-9171-8247"><img src="img/br_sms.gif" alt="신랑 문자"></a>
+                    </div>
+                </div>
+                <div class="bride fr">
+                    <div class="gb_box cle">
+                        <div class="name">신부 &nbsp;<span>윤가일</span></div>
+                    </div>
+                    <div class="phone_box">
+                        <a href="tel:010-6214-9586"><img src="img/gr_call.gif" alt="신부 전화"></a>
+                        <a href="sms:010-6214-9586"><img src="img/gr_sms.gif" alt="신부 문자"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="parents_title cle">
+                    <div class="fl parents_title_1">신랑측 <span>혼주</span></div>
+                    <div class="fr parents_title_2">신부측 <span>혼주</span></div>
+                </div>
+                <div class="parents cle pink-bg">
+    
+                    <div class="groom_father fl">
+                        <div class="gb_box cle">
+                            <div class="name">아버지 <span>김한석</span></div>
+                        </div>
+                    </div>
+    
+                    <div class="bride_father fr">
+                        <div class="gb_box cle">
+                            <div class="name">아버지 <span>윤성현</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="parents_2 cle pink-bg">
+                    <div class="groom_mother fl">
+                        <div class="gb_box cle">
+                            <div class="name">어머니 <span>김옥경</span></div>
+                        </div>
+                    </div>
+    
+                    <div class="bride_mother fr">
+                        <div class="gb_box cle">
+                            <div class="name">어머니 <span>김경환</span></div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        
+        <section class="con_box pr content-right">
             <div id="photo" class="pr">
-                <h1 class="tac"><b>WEDDING</b> PHOTO 데스크탑 모바일 다 잘 보이게</h1>
+                <h1 class="tac content__title"><b>WEDDING</b> PHOTO</h1>
                 <div class="swiper-container swiper-container-horizontal">
                     <div class="swiper-wrapper">
 
@@ -95,107 +149,64 @@
                     <div class="swiper-button-next"></div>
                 </div>
             </div>
-
-            신랑신부, 부모님 뒤에 회색바 이쁘게 부탁!
-            <div class="phone cle">
-                <div class="groom fl">
-                    <div class="gb_box cle">
-                        <div class="name">신랑 &nbsp;<span>김신의</span></div>
-                    </div>
-                    <div class="phone_box">
-                        <a href="tel:010-9171-8247"><img src="img/br_call.gif" alt="신랑 전화"></a>
-                        <a href="sms:010-9171-8247"><img src="img/br_sms.gif" alt="신랑 문자"></a>
-                    </div>
-                </div>
-                <div class="bride fr">
-                    <div class="gb_box cle">
-                        <div class="name">신부 &nbsp;<span>윤가일</span></div>
-                    </div>
-                    <div class="phone_box">
-                        <a href="tel:010-6214-9586"><img src="img/gr_call.gif" alt="신부 전화"></a>
-                        <a href="sms:010-6214-9586"><img src="img/gr_sms.gif" alt="신부 문자"></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="parents_title cle">
-                <div class="fl parents_title_1">신랑측 <span>혼주</span></div>
-                <div class="fr parents_title_1">신부측 <span>혼주</span></div>
-            </div>
-            <div class="parents cle">
-
-                <div class="groom_father fl">
-                    <div class="gb_box cle">
-                        <div class="name">아버지 <span>김한석</span></div>
-                    </div>
-                </div>
-
-                <div class="bride_father fr">
-                    <div class="gb_box cle">
-                        <div class="name">아버지 <span>윤성현</span></div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="parents_2 cle">
-                <div class="groom_mother fl">
-                    <div class="gb_box cle">
-                        <div class="name">어머니 <span>김옥경</span></div>
-                    </div>
-                </div>
-
-                <div class="bride_mother fr">
-                    <div class="gb_box cle">
-                        <div class="name">어머니 <span>김경환</span></div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
     </div>
+
     <div id="direction" class="pr">
-        <h1 class="tac">LOCATION(간격 조정 이쁘게)</h1>
+        <h1 class="tac content__title"><b>LOCATION</b> (오시는 길)</h1>
         <p class="tac"><a href="img/map2177.png"><img
                 src="img/map2177.png" alt="웨딩홀약도" width="95%"></a></p>
-        <div class="line2"></div>
 
-        <div class="wedding_hall cle">
+        <div class="wedding_hall cle pink-bg">
             <div class="hall_detail">
-                <p class="hall_name">아펠가모 공덕<br>7층 마리에홀</p>
+                <p class="hall_name">아펠가모 공덕 7층 마리에홀</p>
                 <p class="hall_addr">서울 마포구 마포대로 92 (도화동 25-13) 효성 해링턴스퀘어 B동 7층</p>
             </div>
-            <div class="hall_call">
-                <p><a href="tel:02-2197-0230"><img src="img/br_call.gif" alt="웨딩홀전화"> 문의</a></p>
+        </div>
+
+        <div class="link-icon hall_call">
+                <a href="tel:02-2197-0230">
+                    <img src="img/br_call.gif" alt="웨딩홀전화">
+                </a>
             </div>
-        </div>
-        지도 라운드렉트로 적당한 사이즈로 보이게
-        <a href="https://apps.apple.com/us/app/kakaomap-korea-no-1-map/id304608425"><b>여기(링크)</b></a> 참고
-        <a href="http://naver.me/F106zRgd" target="_blank"><img src="img/naver_map.jpg" alt="네이버 맵"/>네이버 맵</a>
-        <a href="http://kko.to/yQr2o8W0M" target="_blank"><img src="img/kakao_map.jpg" alt="카카오 맵"/>카카오 맵</a>
-    </div>
-
-    <div id="gurye" class="pr">
-        <h1 class="tac">피로연 안내</h1>
-        <p class="top_wrap_text4">2019.10.03</p>
-        <p class="top_wrap_text4">개천절 목요일 &nbsp;오전 11시<br>전라남도 구례군 구례읍 구례로 453 꽃뜨레</p>
-        <br/>
-        <div title="달력에 일정 넣기" class="addeventatc">
-            피로연 일정 추가
-            <span class="start">10/03/2019 11:00 AM</span>
-            <span class="end">10/03/2019 1:00 PM</span>
-            <span class="timezone">Asia/Seoul</span>
-            <span class="title">김신의&amp;윤가일 피로연</span>
-            <span class="description">[김한석, 김옥경의 장남 김신의], [윤성현, 김경환의 장녀 윤가일] 피로연</span>
-            <span class="location">전라남도 구례군 구례읍 구례로 453 꽃뜨레</span>
-        </div>
-
-        <a href="http://naver.me/GP62OOEC" target="_blank"><img src="img/naver_map.jpg" alt="네이버 맵"/>네이버 맵</a>
-        <a href="http://kko.to/NggWM8W00" target="_blank"><img src="img/kakao_map.jpg" alt="카카오 맵"/>카카오 맵</a>
+            <div class="link-icon naver-map-link">
+                <a href="http://naver.me/F106zRgd" target="_blank">
+                    <img src="img/naver_map.jpg" alt="네이버 맵"/>
+                </a>
+            </div>
+            <div class="link-icon kakao-map-link">
+                <a href="http://kko.to/yQr2o8W0M" target="_blank">
+                    <img src="img/kakao_map.jpg" alt="카카오 맵"/>
+                </a>
+            </div>
+            <div class="divider"></div>
+            <div id="gurye" class="pr pink-bg">
+                <h1 class="tac title">피로연 안내</h1>
+                <p class="top_wrap_text4 content">2019.10.03 개천절 목요일 오전 11시</p>
+                <p class="top_wrap_text4 content">전라남도 구례군 구례읍 구례로 453 꽃뜨레</p>
+            </div>
+            <div title="달력에 일정 넣기" class="addeventatc">
+                피로연 일정 추가
+                <span class="start">10/03/2019 11:00 AM</span>
+                <span class="end">10/03/2019 1:00 PM</span>
+                <span class="timezone">Asia/Seoul</span>
+                <span class="title">김신의&amp;윤가일 피로연</span>
+                <span class="description">[김한석, 김옥경의 장남 김신의], [윤성현, 김경환의 장녀 윤가일] 피로연</span>
+                <span class="location">전라남도 구례군 구례읍 구례로 453 꽃뜨레</span>
+            </div>
+            <div class="link-icon kakao-map-link">
+                <a href="http://naver.me/GP62OOEC" target="_blank"><img src="img/naver_map.jpg" alt="네이버 맵"/>네이버 맵</a>
+            </div>
+            <div class="link-icon kakao-map-link">
+                <a href="http://kko.to/NggWM8W00" target="_blank"><img src="img/kakao_map.jpg" alt="카카오 맵"/>카카오 맵</a>
+            </div>
     </div>
 
     <div id="ending" class="pr">
         만일 우리가 서로 사랑하면 <br/>하나님이 우리 안에 거하시고 <br/>그의 사랑이 우리 안에 <br/>온전히 이루어지느니라
         <br/>
-        <span>요한일서 4:12(이쁘게 보이게. 엔딩임 적당히 마무리 부탁)</span>
+        <span>요한일서 4:12</span>
+        <div class="ending-bg"></div>
     </div>
 </div>
 <script type="text/javascript" src="js/swiper.min.js"></script>
