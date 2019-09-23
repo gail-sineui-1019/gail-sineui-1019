@@ -10,22 +10,21 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://gail-sineui-1019.github.io/img/c2177-1.jpg">
     <meta property="og:description" content="2019-10-19 토요일 오전 11시 30분 아펠가모 공덕">
-
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/swiper.min.css">
-    <script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
-    <script type="text/javascript" src="js/common.js"></script>
-    <script type="text/javascript" src="js/kakao.min.js"></script>
-    <script type="text/javascript" src="js/kakao.link.js"></script>
-    <script type="text/javascript" src="js/maps.js"></script>
+    <script type="text/javascript" src="https://addevent.com/libs/atc/1.6.1/atc.min.js" async defer></script>
 </head>
-<body style="font-size: 68.3333px;">
+<script
+        src="https://code.jquery.com/jquery-3.4.1.slim.js"
+        integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+        crossorigin="anonymous"></script>
+<body>
 <div id="wrap" class="pr">
     <div id="main" class="tac pr">
-        <p class="dDay">D-DAY <span>29</span></p>
+        <p class="dDay"><span>D-</span><span id="d-day"></span></p>
         <p class="top_wrap_text">Save the Date</p>
         <div class="mainPic pr">
             <img src="img/c2177-1.jpg" alt="메인결혼사진">
@@ -34,13 +33,24 @@
                 <p class="mainPic_box_t2">10.19</p>
             </div>
         </div>
-        <p class="top_wrap_text3"><span class="top_wrap_text3_s1">THE MARRIAGE OF</span><br>김신의 <span
+        <p class="top_wrap_text3"><span class="top_wrap_text3_s1">THE <b>MARRIAGE</b> OF</span><br>김신의 <span
                 class="top_wrap_text3_s2">&amp;</span> 윤가일</p>
         <div class="top_wrap_line"></div>
+        <p class="top_wrap_text4"><b>2019.10.19</b></p>
         <p class="top_wrap_text4">토요일&nbsp;오전 11시&nbsp;30분<br>아펠가모 공덕<br>7층 마리에홀</p>
+        <br/>
+        <div title="달력에 일정 넣기" class="addeventatc">
+            달력에 추가
+            <span class="start">10/19/2019 11:30 AM</span>
+            <span class="end">10/19/2019 1:00 PM</span>
+            <span class="timezone">Asia/Seoul</span>
+            <span class="title">김신의&amp;윤가일 결혼</span>
+            <span class="description">[김한석, 김옥경의 장남 김신의], [윤성현, 김경환의 장녀 윤가일] 결혼</span>
+            <span class="location">아펠가모 공덕</span>
+        </div>
     </div>
     <div id="content" class="tac pr">
-        <h1 class="tac"><img src="img/wed_invit.png" alt="초대"></h1>
+        <h1 class="tac"><b>WEDDING</b> INVITATION 헤딩 분홍색으로 이쁘게</h1>
         <div class="con_box pr">
             <div class="con_txt fwb">
                 따스한 가을 햇살 아래<br>익어가는 열매처럼<br>두 사람의 만남도 하나님의 사랑 안에서<br>소중한 결실을 맺으려 합니다.<br><br>그 시작이<br>시월의 어느 멋진 날이 될 수
@@ -50,7 +60,7 @@
             <div class="top_wrap_line"></div>
 
             <div id="photo" class="pr">
-                <h1 class="tac"><img src="img/wedding_photo.png" alt="웨딩포토"></h1>
+                <h1 class="tac"><b>WEDDING</b> PHOTO 데스크탑 모바일 다 잘 보이게</h1>
                 <div class="swiper-container swiper-container-horizontal">
                     <div class="swiper-wrapper">
 
@@ -86,6 +96,7 @@
                 </div>
             </div>
 
+            신랑신부, 부모님 뒤에 회색바 이쁘게 부탁!
             <div class="phone cle">
                 <div class="groom fl">
                     <div class="gb_box cle">
@@ -127,7 +138,6 @@
 
             </div>
             <div class="parents_2 cle">
-
                 <div class="groom_mother fl">
                     <div class="gb_box cle">
                         <div class="name">어머니 <span>김옥경</span></div>
@@ -139,12 +149,15 @@
                         <div class="name">어머니 <span>김경환</span></div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
     <div id="direction" class="pr">
-        <h1 class="tac"><img src="img/location.png" alt="오시는 길"></h1>
+        <h1 class="tac">LOCATION(간격 조정 이쁘게)</h1>
+        <p class="tac"><a href="img/map2177.png"><img
+                src="img/map2177.png" alt="웨딩홀약도" width="95%"></a></p>
+        <div class="line2"></div>
+
         <div class="wedding_hall cle">
             <div class="hall_detail">
                 <p class="hall_name">아펠가모 공덕<br>7층 마리에홀</p>
@@ -154,12 +167,35 @@
                 <p><a href="tel:02-2197-0230"><img src="img/br_call.gif" alt="웨딩홀전화"> 문의</a></p>
             </div>
         </div>
+        지도 라운드렉트로 적당한 사이즈로 보이게
+        <a href="https://apps.apple.com/us/app/kakaomap-korea-no-1-map/id304608425"><b>여기(링크)</b></a> 참고
+        <a href="http://naver.me/F106zRgd" target="_blank"><img src="img/naver_map.jpg" alt="네이버 맵"/>네이버 맵</a>
+        <a href="http://kko.to/yQr2o8W0M" target="_blank"><img src="img/kakao_map.jpg" alt="카카오 맵"/>카카오 맵</a>
+    </div>
 
-        <div class="line2"></div>
+    <div id="gurye" class="pr">
+        <h1 class="tac">피로연 안내</h1>
+        <p class="top_wrap_text4">2019.10.03</p>
+        <p class="top_wrap_text4">개천절 목요일 &nbsp;오전 11시<br>전라남도 구례군 구례읍 구례로 453 꽃뜨레</p>
+        <br/>
+        <div title="달력에 일정 넣기" class="addeventatc">
+            피로연 일정 추가
+            <span class="start">10/03/2019 11:00 AM</span>
+            <span class="end">10/03/2019 1:00 PM</span>
+            <span class="timezone">Asia/Seoul</span>
+            <span class="title">김신의&amp;윤가일 피로연</span>
+            <span class="description">[김한석, 김옥경의 장남 김신의], [윤성현, 김경환의 장녀 윤가일] 피로연</span>
+            <span class="location">전라남도 구례군 구례읍 구례로 453 꽃뜨레</span>
+        </div>
 
-        <p class="tac"><a href="/img/map2177.png"><img
-                src="img/map2177.png" alt="웨딩홀약도" width="95%"></a></p>
-        <div class="line2"></div>
+        <a href="http://naver.me/GP62OOEC" target="_blank"><img src="img/naver_map.jpg" alt="네이버 맵"/>네이버 맵</a>
+        <a href="http://kko.to/NggWM8W00" target="_blank"><img src="img/kakao_map.jpg" alt="카카오 맵"/>카카오 맵</a>
+    </div>
+
+    <div id="ending" class="pr">
+        만일 우리가 서로 사랑하면 <br/>하나님이 우리 안에 거하시고 <br/>그의 사랑이 우리 안에 <br/>온전히 이루어지느니라
+        <br/>
+        <span>요한일서 4:12(이쁘게 보이게. 엔딩임 적당히 마무리 부탁)</span>
     </div>
 </div>
 <script type="text/javascript" src="js/swiper.min.js"></script>
@@ -171,8 +207,14 @@
             nextButton: '.swiper-button-next',
             prevButton: '.swiper-button-prev'
         });
-    }
+    };
+    var now = new Date();
+    console.log(now);
+    var then = new Date("2019-10-19 00:00");
+    console.log(then);
+    var gap = then.getTime() - now.getTime();
+    gap = Math.floor(gap / (1000 * 60 * 60 * 24));
+    $('#d-day').html(gap);
 </script>
-
 </body>
 </html>
