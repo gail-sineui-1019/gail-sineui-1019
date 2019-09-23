@@ -1,5 +1,4 @@
 <!doctype html>
-<!-- saved from url=(0039)http://charmcard.com/m/m2177/index.html -->
 <html lang="ko">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -22,106 +21,6 @@
     <script type="text/javascript" src="js/kakao.min.js"></script>
     <script type="text/javascript" src="js/kakao.link.js"></script>
     <script type="text/javascript" src="js/maps.js"></script>
-    <script type="text/javascript">
-        var ncount = 0;
-        var recordSize = 5;
-
-        function onAdd() {
-            ncount++;
-            var order_seq = "2177";
-            var html = "";
-            $.ajax({
-                type: 'get',
-                url: 'select_proc.asp?order_seq=' + order_seq + '&cpage=' + ncount + '&recordSize=' + recordSize,
-                contentType: "application/json; charset=euc-kr",
-                dataType: "json",
-                success: function (response) {
-                    var data = response.data;
-                    var totRecord = response.tot;
-                    var t_page = parseInt(totRecord / recordSize) + 1;
-                    for (var i = (ncount - 1) * 5; i < data.length; i++) {
-                        html += "<li>";
-                        html += "<p class='msg'>" + data[i].guest_msg + "</p>";
-                        html += "<div class='rDate'>";
-                        html += data[i].guest_name + " <span>" + data[i].date + "</span>";
-                        html += "</div>";
-                        html += "</li>";
-                    }
-                    $("#listview").append(html);
-                    if (ncount == t_page) {
-                        $(".add").hide();
-                    }
-                },
-                error: function (data, status, err) {
-                    //alert('서버와의 통신이 실패했습니다.');
-                    $("#listview").append('error');
-                }
-            });
-        }
-
-        function regist_msg() {
-            var order_seq = "2177";
-            var guest_name = $("#guest_name").val();
-            var guest_msg = $("#guest_msg").val();
-            var AlertMessage = "아래항목을 기입해주세요.\n \n";
-            var Count = 0;
-            if (guest_name === "") {
-                AlertMessage = AlertMessage + (Count + 1) + ". 작성자 \n";
-                Count++;
-            }
-            if (guest_msg === "") {
-                AlertMessage = AlertMessage + (Count + 1) + ". 메세지\n";
-                Count++;
-            }
-            if (Count > 0) {
-                alert(AlertMessage);
-                return false;
-            }
-            $.ajax({
-                type: "POST",
-                url: "regist_proc.asp?order_seq=" + order_seq + "&guest_name=" + guest_name + "&guest_msg=" + guest_msg,
-                contentType: "application/json; charset=utf-8",
-                dataType: "json",
-                success: function (response) {
-                    alert('메시지가 방명록에 등록되었습니다');
-                    ncount = 0;
-                    $("#listview").html('');
-                    onAdd();
-                },
-                error: function () {
-                    alert('에러');
-                    ncount = 0;
-                    $("#listview").html('');
-                    onAdd();
-                }
-            });
-        }
-
-        function snsLink(a) {
-            SNSWriter.Link = snsForm.link.value == null ? "http://momocard.co.kr" : snsForm.link.value == "" ? "http://momocard.co.kr" : snsForm.link.value;
-            SNSWriter.Contents = snsForm.content.value;
-            if (a == "1") SNSWriter.Twitter();
-            else if (a == "2") SNSWriter.Facebook();
-            else if (a == "3") SNSWriter.Band();
-        }
-
-        function KakaoStoryLink() {
-            kakao.link("story").send({
-                post: "http://charmcard.com/m/m2177/index.html",
-                appid: "http://momocard.co.kr",
-                appver: "1.0",
-                appname: "청첩장 모모카드",
-                urlinfo: JSON.stringify({
-                    title: "김신의" + "&" + "윤가일",
-                    desc: "http://charmcard.com/m/m2177/index.html",
-                    imageurl: ["http://charmcard.com/m/m2177/img2/c2177-1.jpg"],
-                    type: "article"
-                })
-            });
-        }
-
-        onAdd();
-    </script>
 </head>
 <body style="font-size: 68.3333px;">
 <div id="wrap" class="pr">
@@ -258,68 +157,11 @@
 
         <div class="line2"></div>
 
-        <p class="tac"><a href="http://charmcard.com/m/m2177/image_view.asp?imgsrc=map2177.png"><img
+        <p class="tac"><a href="/img/map2177.png"><img
                 src="img/map2177.png" alt="웨딩홀약도" width="95%"></a></p>
         <div class="line2"></div>
     </div>
 </div>
-
-<script type="text/javascript">
-    //<![CDATA[
-    // // 사용할 앱의 JavaScript 키를 설정해 주세요.
-    Kakao.init('0627ca7a72df6aa4ba623ea512d3dcb4');
-    // // 카카오링크 버튼을 생성합니다. 처음 한번만 호출하면 됩니다.
-    Kakao.Link.createDefaultButton({
-        container: '#kakao-link-btn',
-        objectType: 'feed',
-        content: {
-            title: '김신의&윤가일 결혼식에 초대합니다',
-            description: '김신의&윤가일 결혼식',
-            imageUrl: 'http://charmcard.com/m/m2177/img2/c2177-1.jpg',
-            link: {
-                mobileWebUrl: 'http://charmcard.com/m/m2177/index.html',
-                webUrl: 'http://charmcard.com/m/m2177/index.html'
-            }
-        },
-        social: {
-            likeCount: 286,
-            commentCount: 45,
-            sharedCount: 845
-        },
-        buttons: [
-            {
-                title: '웹으로 보기',
-                link: {
-                    mobileWebUrl: 'http://charmcard.com/m/m2177/index.html',
-                    webUrl: 'http://charmcard.com/m/m2177/index.html'
-                }
-            },
-            {
-                title: '앱으로 보기',
-                link: {
-                    mobileWebUrl: 'http://charmcard.com/m/m2177/index.html',
-                    webUrl: 'http://charmcard.com/m/m2177/index.html'
-                }
-            }
-        ]
-    });
-    //]]>
-
-    var mapOptions = {
-        center: new naver.maps.LatLng(37.54284415897323, 126.95133459795693),
-        zoom: 12,
-        enableWheelZoom: false,
-        enableDragPan: true,
-        enableDblClickZoom: true,
-        mapMode: 0,
-        minMaxLevel: [1, 14]
-    };
-    var map = new naver.maps.Map('map', mapOptions);
-    var marker = new naver.maps.Marker({
-        position: new naver.maps.LatLng(37.54284415897323, 126.95133459795693),
-        map: map
-    });
-</script>
 <script type="text/javascript" src="js/swiper.min.js"></script>
 <script type="text/javascript">
     window.onload = function () {
